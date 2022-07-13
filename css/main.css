@@ -218,7 +218,7 @@ i {
 .menu-list {
     position: absolute;
     display: flex;
-    bottom: 10px;
+    bottom: 40px;
     width: 100%;
     justify-content: space-between;
     font-weight: bold;
@@ -301,12 +301,17 @@ h4 {
     padding: 10px;
     margin-top: 80px;
     margin-bottom: 80px;
+    position: relative;
 }
 
 .bg-black p {
     color: #fff;
     margin-bottom: 25px;
     line-height: 1.5;
+}
+
+.bg-black .menu-list {
+    bottom: -60px;
 }
 
 .primary-button {
@@ -542,7 +547,7 @@ h4 {
     }
 
     .menu-list {
-        bottom: 30px;
+        bottom: -60px;
     }
 
     .main {
